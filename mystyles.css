@@ -1,0 +1,91 @@
+body{
+    background-color:bisque;
+    text-shadow: 1px 1px;
+    font-size: 16px;/*for smart phone & iphone*/
+    margin: 10px;/*style for larger screen*/
+    }
+    @media(min-width: 768px)
+    {
+        body{
+            font-size:10px;/*for ipad or tablet*/
+            margin: 20px;
+        }
+    }
+    @media(min-width:1024px){
+    body{
+        font-size: 15px;/*for system/desktop*/
+        margin: 30px;
+    }
+    }
+    img{
+        width: 200px;
+        }
+        @media(min-width: 768px)
+        {
+            img{
+                width: 300px;
+                
+            }
+        }
+        @media(min-width:1024px){
+        img{
+            font-size: 500px;
+        }
+        }
+
+#fine{
+    text-decoration: dotted;
+    text-align: center;
+    text-shadow: 2px 2px ;
+}
+
+#me {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #555;
+}
+
